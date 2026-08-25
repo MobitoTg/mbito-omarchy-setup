@@ -1,0 +1,64 @@
+12System:
+  12Kernel 7.1.5-1-t2-noble 12arch x86_64 12bits 64 12compiler gcc 12v 13.3.0 12clocksource tsc
+  12Desktop Cinnamon 12v 6.6.9 12tk GTK 12v 3.24.41 12wm Muffin 12v 6.6.3 12vt 7 12dm LightDM 12v 1.30.0
+    12Distro Linux Mint 22.3 Zena 12base Ubuntu 24.04 noble
+12Machine:
+  12Type Laptop 12System Apple 12product MacBookAir8,1 12v 1.0 12serial <superuser required> 12Chassis 12type 9
+    12v Mac-827FAC58A8FDFA22 12serial <superuser required>
+  12Mobo Apple 12model Mac-827FAC58A8FDFA22 12v MacBookAir8,1 12serial <superuser required>
+    12uuid <superuser required> 12UEFI Apple 12v 2103.100.6.0.0 (iBridge: 23.16.14242.0.0,0)
+    12date 03/05/2026
+12Battery:
+  12ID-1 BAT0 12charge 44.6 Wh (100.0%) 12condition 44.6/50.4 Wh (88.5%) 12volts 12.8 12min 11.5
+    12model SMP bq20z451 12type Li-ion 12serial N/A 12status charging 12cycles 71
+12CPU:
+  12Info dual core 12model Intel Core i5-8210Y 12bits 64 12type MT MCP 12smt enabled 12arch Amber/Kaby Lake
+    12note check 12rev 9 12cache 12L1 128 KiB 12L2 512 KiB 12L3 4 MiB
+  12Speed (MHz) 12avg 500 12high 600 12min/max 400/3600 12cores 121 400 122 600 123 400 124 600 12bogomips 12799
+  12Flags avx avx2 ht lm nx pae sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx
+12Graphics:
+  12Device-1 Intel UHD Graphics 617 12vendor Apple 12driver i915 12v kernel 12arch Gen-9.5 12ports 12active eDP-1
+    12empty DP-1, DP-2, HDMI-A-1, HDMI-A-2 12bus-ID 00:02.0 12chip-ID 8086:87c0 12class-ID 0300
+  12Device-2 Apple FaceTime HD Camera (Built-in) 12driver uvcvideo 12type USB 12rev 2.0 12speed 480 Mb/s
+    12lanes 1 12bus-ID 5-2:3 12chip-ID 05ac:8514 12class-ID 0e02 12serial <filter>
+  12Display x11 12server X.Org 12v 21.1.11 12with Xwayland 12v 23.2.6 12driver 12X 12loaded modesetting
+    12unloaded fbdev,vesa 12dri iris 12gpu i915 12display-ID :0 12screens 1
+  12Screen-1 0 12s-res 2560x1600 12s-dpi 96 12s-size 677x423mm (26.65x16.65") 12s-diag 798mm (31.43")
+  12Monitor-1 eDP-1 12model Apple Color LCD 12res 2560x1600 12hz 60 12dpi 227 12size 286x179mm (11.26x7.05")
+    12diag 337mm (13.3") 12modes 2560x1600
+  12API EGL 12v 1.5 12hw 12drv intel iris 12platforms 12device 0 12drv iris 12device 1 12drv swrast 12gbm 12drv iris
+    12surfaceless 12drv iris 12x11 12drv iris 12inactive wayland
+  12API OpenGL 12v 4.6 12compat-v 4.5 12vendor intel mesa 12v 25.2.8-0ubuntu0.24.04.2 12glx-v 1.4
+    12direct-render yes 12renderer Mesa Intel UHD Graphics 617 (AML-KBL) 12device-ID 8086:87c0
+  12API Vulkan 12v 1.3.275 12layers 3 12surfaces xcb,xlib 12device 0 12type integrated-gpu 12driver N/A
+    12device-ID 8086:87c0 12device 1 12type cpu 12driver N/A 12device-ID 10005:0000
+12Audio:
+  12Device-1 Intel Sunrise Point-LP HD Audio 12driver snd_hda_intel 12v kernel 12bus-ID 00:1f.3
+    12chip-ID 8086:9d71 12class-ID 0403
+  12Device-2 Apple Audio 12driver t2bce_audio 12v 0.01 12pcie 12speed 8 GT/s 12lanes 4 12bus-ID 01:00.3
+    12chip-ID 106b:1803 12class-ID 0401
+  12API ALSA 12v k7.1.5-1-t2-noble 12status kernel-api
+  12Server-1 PipeWire 12v 1.0.5 12status active 12with 121 pipewire-pulse 12status active 122 wireplumber
+    12status active 123 pipewire-alsa 12type plugin
+12Network:
+  12Device-1 Broadcom BCM4355 802.11ac Wireless LAN SoC 12vendor Apple 12driver brcmfmac 12v kernel 12pcie
+    12speed 2.5 GT/s 12lanes 1 12bus-ID 02:00.0 12chip-ID 14e4:43dc 12class-ID 0280
+  12IF wlp2s0 12state up 12mac <filter>
+  12IF-ID-1 t2_ncm 12state up 12speed 100 Mbps 12duplex unknown 12mac <filter>
+12Drives:
+  12Local Storage 12total 113 GiB 12used 24.85 GiB (22.0%)
+  12ID-1 /dev/nvme0n1 12vendor Apple 12model SSD AP0128M 12size 113 GiB 12speed 31.6 Gb/s 12lanes 4 12tech SSD
+    12serial <filter> 12fw-rev 1310 12temp 42.9 C 12scheme GPT
+12Partition:
+  12ID-1 / 12size 110.17 GiB 12used 24.84 GiB (22.5%) 12fs ext4 12dev /dev/nvme0n1p2
+  12ID-2 /boot/efi 12size 510.9 MiB 12used 6.5 MiB (1.3%) 12fs vfat 12dev /dev/nvme0n1p1
+12Swap:
+  12ID-1 swap-1 12type file 12size 2 GiB 12used 0 KiB (0.0%) 12priority -1 12file /swapfile
+12Sensors:
+  12System Temperatures 12cpu 47.0 C 12mobo N/A
+  12Fan Speeds (rpm) 12cpu 0
+12Info:
+  12Memory 12total 8 GiB 12available 7.62 GiB 12used 2.59 GiB (34.0%)
+  12Processes 241 12Power 12uptime 3h 23m 12states freeze,mem,disk 12suspend deep 12wakeups 0
+    12hibernate platform 12Init systemd 12v 255 12target graphical (5) 12default graphical
+  12Packages 12pm dpkg 12pkgs 2483 12Compilers 12gcc 13.3.0 12Client Unknown Client: 2.1.245 12inxi 3.3.34
