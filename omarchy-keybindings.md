@@ -195,11 +195,11 @@ o.bind("SUPER + SHIFT + Z", "ChatGPT", "omarchy-launch-webapp https://chatgpt.co
 
 -- Free keys, no unbind needed.
 o.bind("SUPER + D", "Discord", "omarchy-launch-webapp https://discord.com/channels/@me")
-o.bind("SUPER + C", "Claude", "omarchy-launch-webapp https://claude.ai")
+o.bind("SUPER + SHIFT + C", "Claude", "omarchy-launch-webapp https://claude.ai")
 o.bind("SUPER + M", "Mbito PM", "omarchy-launch-webapp https://mbitopm.com")
 ```
 
-`SUPER + C` was Omarchy's universal copy, which sends `CTRL + C` to normal windows and `CTRL + Insert` to terminals. Claude takes that key now. `CTRL` sits next to `SUPER`, so plain `CTRL + C` is still one finger away. Move Claude to `SUPER + SHIFT + C` if this becomes annoying.
+Claude is bound to `SUPER + SHIFT + C` rather than the free `SUPER + C`, since `SUPER + C` is Omarchy's universal copy, which sends `CTRL + C` to normal windows and `CTRL + Insert` to terminals.
 
 HEY is Basecamp's email service at hey.com. Basecamp built Omarchy, so several Basecamp products ship as default web apps.
 
