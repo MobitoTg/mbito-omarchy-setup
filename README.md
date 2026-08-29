@@ -13,29 +13,35 @@ My personal [Omarchy](https://omarchy.org) configuration and notes — kept here
 
 | File | Description |
 |---|---|
-| [`bindings.lua`](./bindings.lua) | My personal Hyprland/Omarchy keybinding overrides — drop-in replacement for `~/.config/hypr/bindings.lua`. |
-| [`setup.md`](./setup.md) | Step-by-step reference for installing apps, finding launch commands, checking existing keybindings, and adding/changing bindings in Omarchy. |
+| [`mbito-bindings.lua`](./mbito-bindings.lua) | My personal Hyprland/Omarchy keybinding overrides — drop-in replacement for `~/.config/hypr/bindings.lua`. |
+| [`omarchy-keybindings.md`](./omarchy-keybindings.md) | Step-by-step reference for installing apps, finding launch commands, checking existing keybindings, and adding/changing bindings in Omarchy. |
+| [`omarchy-app-setup.md`](./omarchy-app-setup.md) | Notes on installing packages, setting the default browser, dictation, NordVPN, and trackpad right-click. |
 
 ## Custom keybindings
 
-A quick summary of what I've changed from the Omarchy defaults (full details and reasoning in [`bindings.lua`](./bindings.lua)):
+A quick summary of what I've changed from the Omarchy defaults (full details and reasoning in [`mbito-bindings.lua`](./mbito-bindings.lua)):
 
 | Key | App | Notes |
 |---|---|---|
 | `SUPER + SHIFT + N` | Editor (VS Code) | Replaces the default editor binding |
 | `SUPER + D` | Discord | New binding |
-| `SUPER + C` | Claude | Takes over the universal-copy key (plain `CTRL + C` still works, just one key over) |
+| `SUPER + SHIFT + C` | Claude | New binding |
 | `SUPER + M` | Mbito PM | New binding |
 | `SUPER + SHIFT + G` | GitHub | Replaces the default Signal binding |
+| `SUPER + SHIFT + E` | eBay | Replaces the default HEY binding |
+| `SUPER + SHIFT + A` | Amazon | Replaces the default ChatGPT binding |
+| `SUPER + SHIFT + Z` | ChatGPT | Moved here to make room for Amazon |
 
 ## Setup guide
 
-[`setup.md`](./setup.md) walks through the general workflow for customizing Omarchy keybindings:
+[`omarchy-keybindings.md`](./omarchy-keybindings.md) walks through the general workflow for customizing Omarchy keybindings:
 
 1. Installing an app (native package or web app)
 2. Finding the real launch command behind a `.desktop` entry
 3. Checking what a key is already bound to before you claim it
-4. Adding or changing a binding in `bindings.lua`, and troubleshooting if it doesn't take
+4. Adding or changing a binding in `mbito-bindings.lua`, and troubleshooting if it doesn't take
+
+[`omarchy-app-setup.md`](./omarchy-app-setup.md) covers everything else: installing packages, setting the default browser, dictation, NordVPN, and trackpad right-click.
 
 ## Blog post
 
