@@ -33,10 +33,20 @@ hl.unbind("SUPER + SHIFT + N")
 o.bind("SUPER + SHIFT + N", "Editor", "code")
 --Discord
 o.bind("SUPER + D", "Discord", "omarchy-launch-webapp https://discord.com/channels/@me")
---Claude.ai
-o.bind("SUPER + C", "Claude", "omarchy-launch-webapp https://claude.ai")
+--Claude.ai (replaces the default Calendar binding)
+hl.unbind("SUPER + SHIFT + C")
+o.bind("SUPER + SHIFT + C", "Claude", "omarchy-launch-webapp https://claude.ai")
 --MbitoPM
 o.bind("SUPER + M", "Mobito", "omarchy-launch-webapp https://mbitopm.com")
 --Github (replaces signal keybind. I want github to be super + shift + g) 
 hl.unbind("SUPER + SHIFT + G")
 o.bind("SUPER + SHIFT + G", "GitHub", "omarchy-launch-webapp https://github.com")
+-- eBay web app. Replaces the default HEY (hey.com) binding.
+hl.unbind("SUPER + SHIFT + E")
+o.bind("SUPER + SHIFT + E", "eBay", "omarchy-launch-webapp https://www.ebay.com")
+-- Amazon web app. Replaces the default ChatGPT binding.
+hl.unbind("SUPER + SHIFT + A")
+o.bind("SUPER + SHIFT + A", "Amazon", "omarchy-launch-webapp https://www.amazon.com")
+-- Apple Music web app. Replaces the default Music (Spotify) binding.
+hl.unbind("SUPER + SHIFT + M")
+o.bind("SUPER + SHIFT + M", "Apple Music", "omarchy-launch-webapp https://music.apple.com")
